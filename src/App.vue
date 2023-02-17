@@ -27,7 +27,7 @@
 				<h2>You chose: {{player_choice}}</h2>
 				<div class="to-the-right">
 		<img  v-if="player_choice === 'rock'" v-bind:src="'./assets/' + rockImg"/>
-		<img  v-if="player_choice === 'paper'" v-bind:src="'../public/' + paperImg" />
+		<img  v-if="player_choice === 'paper'" v-bind:src="'./assets/' + paperImg" />
 		<img  v-if="player_choice === 'scissors'" v-bind:src="'./assets/' + scissorsImg" />
 		</div>
 		</div>
@@ -39,9 +39,9 @@
 		<h2>Computer
 		chose:
 		{{ computer_choice }}</h2>
-		<img v-if="computer_choice === 'rock'" v-bind:src="'../public/' + rockImg" />
-		<img v-if="computer_choice === 'paper'" v-bind:src="'../public/' + paperImg" />
-		<img v-if="computer_choice === 'scissors'" v-bind:src="'../public/' + scissorsImg" />
+		<img v-if="computer_choice === 'rock'" v-bind:src="'./assets/' + rockImg" />
+		<img v-if="computer_choice === 'paper'" v-bind:src="'./assets/' + paperImg" />
+		<img v-if="computer_choice === 'scissors'" v-bind:src="'./assets/' + scissorsImg" />
 
 		</div>
 </div>
@@ -73,8 +73,8 @@ export default {
 			player_score: "",
 			winner: "",
 				tie: "",
-				rockImg: 'rock.png',
-				paperImg: 'paper.png',
+				rockImg: 'rock-d2011a36.png',
+				paperImg: 'paper-742616bc.png',
 				scissorsImg: 'scissors-33622a72.png',
 		};
 	},
