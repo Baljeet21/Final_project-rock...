@@ -28,7 +28,7 @@
 				<div class="to-the-right">
 		<img  v-if="player_choice === 'rock'" v-bind:src="'./assets/' + rockImg"/>
 		<img  v-if="player_choice === 'paper'" v-bind:src="'../public/' + paperImg" />
-		<img  v-if="player_choice === 'scissors'" v-bind:src="'../public/' + scissorsImg" />
+		<img  v-if="player_choice === 'scissors'" v-bind:src="'./assets/' + scissorsImg" />
 		</div>
 		</div>
 		<div class="computer-side">
