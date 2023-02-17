@@ -75,7 +75,7 @@ export default {
 				tie: "",
 				rockImg: 'rock.png',
 				paperImg: 'paper.png',
-				scissorsImg: 'scissors.png',
+				scissorsImg: 'scissors-33622a72.png',
 		};
 	},
 	methods: {
