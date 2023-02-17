@@ -26,7 +26,7 @@
 				<Player v-on:getChoice="updatePlayerChoice($event)" v-bind:option="player_choice"/>
 				<h2>You chose: {{player_choice}}</h2>
 				<div class="to-the-right">
-		<img  v-if="player_choice === 'rock'" v-bind:src="'../public/' + rockImg"/>
+		<img  v-if="player_choice === 'rock'" v-bind:src="'./assets/' + rockImg"/>
 		<img  v-if="player_choice === 'paper'" v-bind:src="'../public/' + paperImg" />
 		<img  v-if="player_choice === 'scissors'" v-bind:src="'../public/' + scissorsImg" />
 		</div>
