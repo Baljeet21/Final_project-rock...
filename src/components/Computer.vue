@@ -1,6 +1,6 @@
 <template>
 	<div class="container-computer">
-			<button v-on:click="chooseRandom()" id="play-btn">Choose an item and play</button>
+			<button v-on:click="chooseRandom()" id="play-btn">Choose an item and click here</button>
 
 	</div>
 </template>
